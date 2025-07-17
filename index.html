@@ -7,7 +7,7 @@
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script>
     (function(){
-      emailjs.init("mG3oad88C64uLEpIL"); // Replace with your EmailJS public key
+      emailjs.init("bls688QTdfAD9gheC"); // Replace with your EmailJS public key
     })();
   </script>
   <style>
@@ -127,7 +127,7 @@
     document.getElementById("enrollmentForm").addEventListener("submit", function(e) {
       e.preventDefault();
 
-      emailjs.sendForm("service_xlo0wy2", "template_eqbq8ui", this)
+      emailjs.sendForm("nagsamidha@gmail.com", "template_11wiprc", this)  //add service id and template id from emailjs here
         .then(function(response) {
           alert("Enrollment submitted successfully!");
         }, function(error) {
